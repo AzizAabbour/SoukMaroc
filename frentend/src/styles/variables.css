@@ -1,0 +1,12 @@
+/* src/styles/variables.css */
+:root {
+  /* Moroccan-inspired palette */
+  --color-primary: #c0392b;   /* deep red */
+  --color-secondary: #d35400; /* burnt orange */
+  --color-accent: #f39c12;    /* saffron */
+  --color-bg: #f8f9fa;        /* light gray */
+  --color-text: #2c3e50;      /* dark slate */
+  --font-family: 'Inter', system-ui, sans-serif;
+  --border-radius: 8px;
+  --spacing-unit: 0.5rem;
+}
