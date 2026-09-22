@@ -1,0 +1,23 @@
+/* Moroccan geometric accent patterns — subtle, not decorative */
+
+/* Top border pattern strip */
+.zellige-border {
+  height: 6px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-primary) 0,
+    var(--color-primary) 12px,
+    var(--color-secondary) 12px,
+    var(--color-secondary) 24px,
+    var(--color-accent)   24px,
+    var(--color-accent)   36px
+  );
+}
+
+/* Section dividers */
+.zellige-divider {
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent), var(--color-primary));
+  border: none;
+  margin: 24px 0;
+}

@@ -1,0 +1,8 @@
+/* RTL support — currently LTR, toggle direction here if Arabic mode is needed */
+html {
+  direction: ltr;
+}
+
+/* Arabic-ready utilities */
+.rtl { direction: rtl; text-align: right; }
+.ltr { direction: ltr; text-align: left; }

@@ -1,12 +1,27 @@
-/* src/styles/variables.css */
+/* ─── CSS Variables ─────────────────────────────────────────────── */
 :root {
-  /* Moroccan-inspired palette */
-  --color-primary: #c0392b;   /* deep red */
-  --color-secondary: #d35400; /* burnt orange */
-  --color-accent: #f39c12;    /* saffron */
-  --color-bg: #f8f9fa;        /* light gray */
-  --color-text: #2c3e50;      /* dark slate */
-  --font-family: 'Inter', system-ui, sans-serif;
-  --border-radius: 8px;
-  --spacing-unit: 0.5rem;
+  --color-primary:    #c0392b;
+  --color-primary-dk: #96281b;
+  --color-secondary:  #e67e22;
+  --color-accent:     #f39c12;
+  --color-bg:         #f5f5f5;
+  --color-white:      #ffffff;
+  --color-text:       #222222;
+  --color-muted:      #888888;
+  --color-border:     #dddddd;
+  --color-card:       #ffffff;
+  --color-success:    #27ae60;
+  --color-danger:     #e74c3c;
+  --color-info:       #2980b9;
+
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.12);
+  --shadow-md: 0 2px 8px rgba(0,0,0,.15);
+  --shadow-lg: 0 4px 20px rgba(0,0,0,.18);
+
+  --font-base: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  --transition: 0.2s ease;
 }

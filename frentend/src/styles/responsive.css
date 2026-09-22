@@ -1,0 +1,20 @@
+/* ─── Responsive breakpoints ────────────────────────────────────── */
+@media (max-width: 480px) {
+  .container { padding: 0 12px; }
+  .hide-xs { display: none !important; }
+}
+
+@media (max-width: 768px) {
+  .hide-sm { display: none !important; }
+  .product-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .hero-search input { font-size: 14px; }
+}
+
+@media (max-width: 1024px) {
+  .hide-md { display: none !important; }
+  .product-grid { grid-template-columns: repeat(3, 1fr) !important; }
+}
+
+@media (min-width: 1025px) {
+  .product-grid { grid-template-columns: repeat(5, 1fr); }
+}

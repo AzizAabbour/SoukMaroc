@@ -2,15 +2,17 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import App from './App';
 import store from './store/store';
+import App from './App';
+
+import './styles/variables.css';
 import './styles/global.css';
 import './styles/zellige.css';
 import './styles/rtl.css';
 import './styles/responsive.css';
+import './styles/components.css';
 
-const container = document.getElementById('root');
-const root = createRoot(container);
+const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
